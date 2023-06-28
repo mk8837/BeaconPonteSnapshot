@@ -1,0 +1,17 @@
+<template >
+        <div class="fixedHeithBasedOnFormFactor slds-scrollable_y">        
+        <c-b-pall-wealth-a-c-r record-id={recordId}></c-b-pall-wealth-a-c-r>
+        <c-b-pall-wealth-c-c-r record-id={recordId}></c-b-pall-wealth-c-c-r>
+      </div>
+      <footer class=" slds-text-align_right" style="position: sticky;
+    bottom: -1rem;
+    width: 100%;
+    background-color: lavender;
+    padding: 6px;
+    font-size: 16px;
+    z-index: 100;" >
+    <lightning-button label="Previous" onclick={handlePrevious} style="float:left"> </lightning-button>  &nbsp;
+    <lightning-button class="slds-m-top_small" onclick={handleSubmitqf} name="Preview" variant="brand" label="Preview" >
+    </lightning-button>
+    </footer>
+</template>
